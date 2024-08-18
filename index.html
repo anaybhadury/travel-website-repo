@@ -5,8 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Website</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'primary-color':'#FF5400',
+              }
+            }
+          }
+        }
+      </script>
 </head>
 <body>
-    
+    <header>
+        <nav class="flex justify-between w-11/12 md:w-10/12 xl:w-4/6 2xl:w-3/4 mx-auto py-6 items-center">
+            <div class="flex items-center">
+                <img src="./Images/Group 40071 (2).png" alt="">
+                <h1 class="text-2xl font-bold">Hero <span class="text-primary-color ">Travel</span></h1>
+            </div>
+            <div class="hidden">
+                <ul class="flex gap-6 items-center">
+                    <li class="text-xl text-primary-color"><a href="">Home</a></li>
+                    <li class="text-xl"><a href="">Packages</a></li>
+                    <li class="text-xl"><a href="">Testimonial</a></li>
+                    <li class="text-xl"><a href="">Blog</a></li>
+                    <li class="text-xl"><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
