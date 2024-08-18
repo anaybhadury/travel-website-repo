@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,61 +8,44 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'primary-color':'#FF5400',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'primary-color': '#FF5400',
+                    },
+                    backgroundImage: {
+                        'hero-bg': "linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('./images/Group 13 (1) (1).png')"
+                    }
+                }
             }
-          }
         }
-      </script>
-      <script src="https://kit.fontawesome.com/9879608144.js" crossorigin="anonymous"></script>
-      <link
-      rel="stylesheet"
-      data-purpose="Layout StyleSheet"
-      title="Web Awesome"
-      href="/css/app-wa-09b459cf485d4b1f3304947240314c05.css?vsn=d"
-    >
+    </script>
+    <script src="https://kit.fontawesome.com/9879608144.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-09b459cf485d4b1f3304947240314c05.css?vsn=d">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
-      >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
-      >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
-      >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
-      >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
-      >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css">
 
-      <link
-        rel="stylesheet"
-        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
-      >
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css">
 
 </head>
+
 <body>
     <header>
         <nav class="flex justify-between w-11/12 md:w-10/12 xl:w-4/6 2xl:w-3/4 mx-auto py-6 items-center">
             <div class="flex items-center">
                 <img class=" " src="./Images/Group 40071 (2).png" alt="">
-                <h1 class="text-2xl font-bold lg:text-3xl xl:text-4xl  " > Hero <span class="text-primary-color ">Travel</span></h1>
+                <h1 class="text-2xl font-bold lg:text-3xl xl:text-4xl  "> Hero <span
+                        class="text-primary-color ">Travel</span></h1>
             </div>
             <div class="hidden sm:block">
                 <ul class="flex md:gap-4 lg:gap-6 items-center">
@@ -76,6 +60,25 @@
                 <i class="fa-regular fa-bars-progress"></i>
             </div>
         </nav>
+
+        <section class="w-11/12 md:w-10/12 xl:w-4/6 2xl:w-3/4 mx-auto bg-hero-bg bg-cover py-32 rounded-2xl">
+            <div class="w-11/12 md:w-10/12 lg:w-8/12  2xl:w-2/4 mx-auto text-center text-white ">
+                <h1 class=" text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl text-white font-bold">Explore Your Travel</h1>
+                <p class=" my-6">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.</p>
+                
+
+            </div>
+            <div class="text-gray-400 flex flex-col lg:flex-row gap-4 w-11/12 md:w-9/12 2xl:w-3/5 mx-auto p-6 bg-white rounded-md  bg-opacity-30">
+                <input class="w-full py-3 px-6 rounded-md" type="text" name="" id="" placeholder="Where go">
+                <select class="w-full py-3 rounded-md px-6" name="" id="">
+                    <option value="">When</option>
+                </select>
+                <select class="w-full py-3 rounded-md px-6" name="" id="">
+                    <option value="">Select Type</option>
+                </select>
+                <button class="px-6 py-3 w-full bg-primary-color rounded-md text-white"><i class="fa-duotone fa-solid fa-magnifying-glass"></i> Find Now</button>
+            </div>
+        </section>
     </header>
     <main class="w-11/12 md:w-10/12 xl:w-4/6 2xl:w-3/4 mx-auto">
 
@@ -84,4 +87,5 @@
 
     </footer>
 </body>
+
 </html>

@@ -6,6 +6,9 @@ module.exports = {
         colors: {
             clifford: '#da373d',
             'primary-color':'#FF5400',
+          },
+          backgroundImage:{
+            'hero-bg': "url('./images/Group 13 (1) (1).png')"
           }
       },
     },
