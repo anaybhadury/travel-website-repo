@@ -11,7 +11,8 @@ module.exports = {
             'hero-bg': "url('./images/Group 13 (1) (1).png')",
             'first-bg': "url('./Images/Group 39.png')",
             'second-bg': "url('./Images/Group 40.png')",
-            'third-bg': "url('./Images/Group 40089.png')"
+            'third-bg': "url('./Images/Group 40089.png')",
+            'forth-bg': "url('./Images/Rectangle 8 (1).png')"
           }
       },
     },
