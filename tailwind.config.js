@@ -8,7 +8,7 @@ module.exports = {
             'primary-color':'#FF5400',
           },
           backgroundImage:{
-            'hero-bg': "url('./images/Group 13 (1) (1).png')",
+            'hero-bg': "linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url('./Images/main.png')",
             'first-bg': "url('./Images/Group 39.png')",
             'second-bg': "url('./Images/Group 40.png')",
             'third-bg': "url('./Images/Group 40089.png')",
